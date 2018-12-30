@@ -15,6 +15,7 @@
     <favorites_list name="hack" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/packet_sniffer.py">
@@ -51,6 +52,9 @@
         </entry>
       </file>
     </leaf>
+=======
+    <leaf />
+>>>>>>> f59cf6b7468c2bfb1f4d796f5fef49e10e3cce86
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -74,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="683" />
     <option name="y" value="27" />
     <option name="width" value="683" />
@@ -103,6 +107,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -120,7 +125,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="network_scanner" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="network_scanner" type="PythonConfigurationType" factoryName="Python">
       <module name="hack" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,6 +137,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/network_scanner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
@@ -143,7 +149,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.network_scanner" />
         <item itemvalue="Python.network_scanner" />
       </list>
     </recent_temporary>
@@ -158,8 +163,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545481642314</updated>
+      <workItem from="1546070306337" duration="81000" />
+      <workItem from="1546070530437" duration="52000" />
+      <workItem from="1546070596673" duration="209000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="342000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -171,8 +182,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="683" y="27" width="683" height="741" extended-state="4" />
     <editor active="true" />
+=======
+    <frame x="0" y="27" width="1360" height="741" extended-state="6" />
+>>>>>>> f59cf6b7468c2bfb1f4d796f5fef49e10e3cce86
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49917626" weight="0.27997023" />
       <window_info id="Structure" order="1" sideWeight="0.50082374" side_tool="true" weight="0.28145942" />
@@ -186,12 +201,42 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294893" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3267974" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32784185" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49917626" weight="0.28" />
+      <window_info id="Structure" order="1" sideWeight="0.50082374" side_tool="true" weight="0.28145942" />
+      <window_info id="Favorites" order="2" sideWeight="0.50082374" side_tool="true" weight="0.28145942" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39868203" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3294893" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" side_tool="true" visible="true" weight="0.3267974" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32784185" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -212,9 +257,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
     <entry file="file://$PROJECT_DIR$/network_scanner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -238,7 +281,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/packet_sniffer.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="540">
+=======
+        <state relative-caret-position="322">
+>>>>>>> f59cf6b7468c2bfb1f4d796f5fef49e10e3cce86
           <caret line="28" column="67" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
@@ -249,7 +296,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/arp_spoof.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="800">
+=======
+        <state relative-caret-position="319">
+>>>>>>> f59cf6b7468c2bfb1f4d796f5fef49e10e3cce86
           <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
