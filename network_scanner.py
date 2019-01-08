@@ -2,12 +2,12 @@ import scapy.all as scapy
 import argparse
 
 
-
 def get_arguments():
     parser = argparse.ArgumentParser()
     parser.add_argument("-t", "--target", dest="target", help="Target IP / IP range")
     options = parser.parse_args()
     return options
+
 
 def scan(ip):
 
@@ -20,7 +20,8 @@ def scan(ip):
 
     # This variable is your packet that will be sent across the network, as it contains information about MAc and ARP
     arp_request_broadcast = broadcast/arp_request
-    answered_list = scapy.srp(arp_request_broadcast, timeout=1, verbose = False)[0] # srp stands for send and recieve packet.
+    answered_list = scapy.srp(arp_request_broadcast, timeout=1, verbose = False)[0]
+    # srp stands for send and receive packet.
 
     clients_list = []
     # This for loop is basically us parsing the data we receive through the objects. use element.show() for data
@@ -34,6 +35,7 @@ def print_result(results_list):
     print("IP\t\t\tMAC Address\n----------------------------------")
     for client in results_list:
         print(client["ip"] + "\t\t" + client["mac"])
+
 
 options = get_arguments()
 scan_result = scan(options.target)
